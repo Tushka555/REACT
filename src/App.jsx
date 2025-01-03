@@ -11,7 +11,6 @@ function App() {
 
   const handleAddTask = () => {
     if (task.trim() !== "") {
-      // Add task to list
       setTasks([...tasks, { text: task, completed: false }]);
       setTask(""); 
     }
